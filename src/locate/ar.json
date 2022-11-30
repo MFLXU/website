@@ -34,6 +34,10 @@
       "title": "تصميم الرسومات",
       "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
     }
+  },
+  "cta": {
+    "cta": "هل تريد أن تصبح جزءًا من نادينا؟",
+    "btn": "املأ استمارة التسجيل"
   }
 
 }

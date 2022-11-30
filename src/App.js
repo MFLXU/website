@@ -5,6 +5,7 @@ import { useState } from "react";
 import Hero from "./components/Hero";
 import Activities from "./components/Activities";
 import OurSpecialities from "./components/OurSpecialities";
+import Cta from "./components/Cta";
 export const LanguageContext = createContext("uk");
 function App() {
   const [lang, setLang] = useState("uk");
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Activities />
         <OurSpecialities />
+        <Cta />
       </LanguageContext.Provider>
     </div>
   );
