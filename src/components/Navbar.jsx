@@ -1,22 +1,45 @@
 import dz from "../utils/algeria.png";
 import uk from "../utils/uk.png";
 import { useTranslation } from "react-i18next";
-import { MoonIcon } from "@heroicons/react/20/solid";
+import { MoonIcon, SunIcon } from "@heroicons/react/20/solid";
 import { LanguageContext } from "../App";
 import { useContext } from "react";
+import { useState } from "react";
 const Navbar = () => {
   const { lang, setLang } = useContext(LanguageContext);
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
+  const [theme, setTheme] = useState("light");
+  if (theme === "light") {
+    document.documentElement.classList.remove("dark");
+    document.documentElement.classList.add("light");
+  } else if (theme === "dark") {
+    document.documentElement.classList.remove("light");
+    document.documentElement.classList.add("dark");
+  }
+  const themeSwitcher = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else if (theme === "dark") {
+      setTheme("light");
+    }
+  };
 
   return (
     <div className="py-4">
       <div className="container flex items-center justify-between">
-        <a className="font-extrabold text-3xl" href="/">
+        <a className="font-extrabold text-4xl text-dbc" href="/">
           Debug Club Biskra
         </a>
         <div className="flex items-center justify-center gap-2">
-          <div className="outline-0 flex items-center justify-center p-2 border rounded-md">
-            <MoonIcon className="w-4" />
+          <div
+            onClick={themeSwitcher}
+            className="hover:-translate-y-0.5 p-1 rounded-md border bg-dbc  border-dbg duration-300 cursor-pointer"
+          >
+            {theme === "light" ? (
+              <MoonIcon className="w-6 text-white" />
+            ) : (
+              <SunIcon className="w-6 text-white" />
+            )}
           </div>
           {lang == "uk" ? (
             <button

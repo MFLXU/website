@@ -11,6 +11,9 @@
 }
 
 @layer base {
+  body{
+    @apply bg-slate-50 text-black dark:bg-neutral-900 dark:text-white duration-300
+  }
   .bg-dbc{
     @apply bg-[#ff2c62]
   }

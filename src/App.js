@@ -11,8 +11,8 @@ function App() {
     <div className={lang == "uk" ? "text-left" : "text-right"}>
       <LanguageContext.Provider value={{ lang, setLang }}>
         <Navbar />
+        <Hero />
       </LanguageContext.Provider>
-      <Hero />
     </div>
   );
 }

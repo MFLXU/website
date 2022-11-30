@@ -19,7 +19,7 @@ const Hero = () => {
               <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc">
                 {t("hero.buttons.btn1")}
               </button>
-              <button className="p-4 text-xl font-medium rounded-md bg-dbc text-white">
+              <button className="p-4 hover:bg-opacity-90 duration-300 text-xl font-medium rounded-md bg-dbc text-white">
                 {t("hero.buttons.btn2")}
               </button>
             </div>
@@ -40,7 +40,7 @@ const Hero = () => {
             </h1>
             <p className="text-xl">{t("hero.desc")}</p>
             <div className="grid md:grid-cols-2 gap-4 mt-auto">
-              <button className="p-4 text-xl font-medium rounded-md bg-dbc text-white">
+              <button className="p-4 text-xl font-medium bg-opacity-90 duration-300 rounded-md bg-dbc text-white">
                 {t("hero.buttons.btn2")}
               </button>
               <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc">
