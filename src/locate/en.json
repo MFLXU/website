@@ -1,7 +1,11 @@
 {
-  "title": "Welcome to react using react-i18next",
-  "description": {
-    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-    "part2": "Switch language between english and german using buttons above."
+  "hero": {
+    "intro": "Welcome to Debug Club",
+    "clubname": "Debug Club Biskra",
+    "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad\n            doloribus iusto natus nesciunt nisi, numquam quasi quibusdam sequi\n            tenetur voluptatum! Iure laudantium, qui? Beatae eligendi nostrum\n            quas sequi voluptas! Fugiat.",
+    "buttons": {
+      "btn1": "Learn More",
+      "btn2": "Join Us"
+    }
   }
 }

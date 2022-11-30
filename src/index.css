@@ -9,3 +9,15 @@
   max-width: 1200px;
   margin: auto;
 }
+
+@layer base {
+  .bg-dbc{
+    @apply bg-[#ff2c62]
+  }
+  .text-dbc{
+    @apply text-[#ff2c62]
+  }
+  .border-dbc{
+    @apply border-[#ff2c62]
+  }
+}
