@@ -1,11 +1,13 @@
 import dz from "../utils/algeria.png";
 import uk from "../utils/uk.png";
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { MoonIcon } from "@heroicons/react/20/solid";
+import { LanguageContext } from "../App";
+import { useContext } from "react";
 const Navbar = () => {
+  const { lang, setLang } = useContext(LanguageContext);
   const { t, i18n } = useTranslation();
-  const [lang, setLang] = useState("uk");
+
   return (
     <div className="py-4">
       <div className="container flex items-center justify-between">
