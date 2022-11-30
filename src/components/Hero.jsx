@@ -6,7 +6,7 @@ const Hero = () => {
   const { lang } = useContext(LanguageContext);
   const { t } = useTranslation();
   return (
-    <section className="py-40">
+    <section className="py-40 mt-10">
       {lang == "uk" ? (
         <div className="container grid md:grid-cols-2 gap-8">
           <div className="flex justify-start flex-col">
@@ -24,13 +24,13 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div>
+          <div className="hidden md:block">
             <img src={heroImg} alt="" />
           </div>
         </div>
       ) : (
         <div className="container grid md:grid-cols-2 gap-8">
-          <div>
+          <div className="hidden md:block">
             <img src={heroImg} alt="" />
           </div>
           <div className="flex justify-start flex-col">
@@ -39,7 +39,7 @@ const Hero = () => {
               {t("hero.clubname")}
             </h1>
             <p className="text-xl">{t("hero.desc")}</p>
-            <div className="grid md:grid-cols-2 gap-4 mt-auto">
+            <div className="grid md:grid-cols-2 gap-4 mt-8 md:mt-auto">
               <button className="p-4 text-xl font-medium bg-opacity-90 duration-300 rounded-md bg-dbc text-white">
                 {t("hero.buttons.btn2")}
               </button>

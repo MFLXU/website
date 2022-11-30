@@ -7,5 +7,33 @@
       "btn1": "تعلم المزيد عنا",
       "btn2": "انضم إلينا"
     }
+
+  },
+  "activities": {
+    "title": "أنشطتنا",
+    "act1": "الأحداث",
+    "act2": "الدورات",
+    "act3" : "ورش عمل",
+    "act4": "مسابقات"
+  },
+  "specialities": {
+    "title": "تخصصاتنا",
+    "sp1": {
+      "title": "تطوير المواقع الإلكترونية",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    },
+    "sp2": {
+      "title": "تطوير تطبيقات الجوال",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    },
+    "sp3": {
+      "title": "الذكاء الاصطناعي والروبوتات",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    },
+    "sp4": {
+      "title": "تصميم الرسومات",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    }
   }
+
 }

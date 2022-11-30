@@ -7,5 +7,32 @@
       "btn1": "Learn More",
       "btn2": "Join Us"
     }
+  },
+  "activities": {
+    "title": "Our Activities",
+    "act1": "Events",
+    "act2": "Courses",
+    "act3" : "Workshops",
+    "act4": "Competitions"
+  },
+  "specialities": {
+    "title": "Our Specialities",
+    "sp1": {
+      "title": "Web Development",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    },
+    "sp2": {
+      "title": "Mobile Development",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    },
+    "sp3": {
+      "title": "AI & Robotics",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    },
+    "sp4": {
+      "title": "Graphics Design",
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+    }
+
   }
 }

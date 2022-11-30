@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="py-4">
+    <div className="py-4 fixed top-0 w-full bg-white dark:bg-neutral-900 z-10">
       <div className="container flex items-center justify-between">
         <a className="font-extrabold text-4xl text-dbc" href="/">
           Debug Club Biskra
@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center gap-2">
           <div
             onClick={themeSwitcher}
-            className="hover:-translate-y-0.5 p-1 rounded-md border bg-dbc  border-dbg duration-300 cursor-pointer"
+            className="hover:-translate-y-0.5 p-1 rounded-md border bg-dbc  border-dbg duration-300 cursor-pointer dark:border-neutral-800 hover:border-dbc dark:hover:border-dbc"
           >
             {theme === "light" ? (
               <MoonIcon className="w-6 text-white" />
@@ -47,7 +47,7 @@ const Navbar = () => {
                 i18n.changeLanguage("ar");
                 setLang("ar");
               }}
-              className="outline-0 flex items-center justify-center p-2 border rounded-md"
+              className="outline-0 flex items-center justify-center p-2 border rounded-md dark:border-neutral-800 hover:border-dbc dark:hover:border-dbc"
             >
               <img className="w-8" src={dz} alt="" />
             </button>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 i18n.changeLanguage("en");
                 setLang("uk");
               }}
-              className="outline-0 flex items-center justify-center p-2 border rounded-md"
+              className="outline-0 flex items-center justify-center p-2 border rounded-md dark:border-neutral-800 hover:border-dbc dark:hover:border-dbc"
             >
               <img className="w-8" src={uk} alt="" />
             </button>
