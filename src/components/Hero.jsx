@@ -15,7 +15,7 @@ const Hero = () => {
               {t("hero.clubname")}
             </h1>
             <p className="text-xl">{t("hero.desc")}</p>
-            <div className="grid md:grid-cols-2 gap-4 mt-auto">
+            <div className="grid md:grid-cols-2 gap-4 mt-8 md:mt-auto">
               <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc hover:bg-dbc duration-300 hover:text-white">
                 {t("hero.buttons.btn1")}
               </button>

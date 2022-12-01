@@ -42,7 +42,8 @@ const Navbar = () => {
           className=" flex items-center justify-center gap-2 text-3xl text-dbc font-extrabold"
           href="/"
         >
-          <img className="w-12" src={logo} alt="" /> Debug Club Biskra
+          <img className="w-12" src={logo} alt="" />{" "}
+          <span className="hidden md:block">Debug Club Biskra</span>
         </a>
         <div className="flex items-center justify-center gap-2">
           <div
