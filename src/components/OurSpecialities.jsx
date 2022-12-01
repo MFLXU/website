@@ -17,7 +17,7 @@ const OurSpecialities = () => {
         {lang == "uk" ? (
           <div className="grid gap-8">
             {/* spes 1 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div className="flex flex-col justify-center">
                 <h3 className="text-4xl font-extrabold text-dbc mb-4">
                   {t("specialities.sp1.title")}
@@ -29,7 +29,7 @@ const OurSpecialities = () => {
               </div>
             </div>
             {/* spes 2 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div>
                 <img src={md} alt="" />
               </div>
@@ -41,7 +41,7 @@ const OurSpecialities = () => {
               </div>
             </div>
             {/* spes 3 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div className="flex flex-col justify-center">
                 <h3 className="text-4xl font-extrabold text-dbc mb-4">
                   {t("specialities.sp3.title")}
@@ -53,7 +53,7 @@ const OurSpecialities = () => {
               </div>
             </div>
             {/* spes 4 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div>
                 <img src={ds} alt="" />
               </div>
@@ -68,7 +68,7 @@ const OurSpecialities = () => {
         ) : (
           <div className="grid gap-8">
             {/* spes 1 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div>
                 <img src={wd} alt="" />
               </div>
@@ -80,7 +80,7 @@ const OurSpecialities = () => {
               </div>
             </div>
             {/* spes 2 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div className="flex flex-col justify-center">
                 <h3 className="text-4xl font-extrabold text-dbc mb-4">
                   {t("specialities.sp2.title")}
@@ -92,7 +92,7 @@ const OurSpecialities = () => {
               </div>
             </div>
             {/* spes 3 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div>
                 <img src={ai} alt="" />
               </div>
@@ -104,7 +104,7 @@ const OurSpecialities = () => {
               </div>
             </div>
             {/* spes 4 */}
-            <div className="grid md:grid-cols-2 gap-8 p-8 ">
+            <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8 ">
               <div className="flex flex-col justify-center">
                 <h3 className="text-4xl font-extrabold text-dbc mb-4">
                   {t("specialities.sp4.title")}

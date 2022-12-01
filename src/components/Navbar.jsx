@@ -38,7 +38,12 @@ const Navbar = () => {
       }
     >
       <div className="container flex items-center justify-between">
-        <img className='w-10' src={logo} alt="">
+        <a
+          className=" flex items-center justify-center gap-2 text-3xl text-dbc font-extrabold"
+          href="/"
+        >
+          <img className="w-12" src={logo} alt="" /> Debug Club Biskra
+        </a>
         <div className="flex items-center justify-center gap-2">
           <div
             onClick={themeSwitcher}
