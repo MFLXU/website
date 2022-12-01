@@ -5,6 +5,7 @@ import { MoonIcon, SunIcon } from "@heroicons/react/20/solid";
 import { LanguageContext } from "../App";
 import { useContext } from "react";
 import { useState } from "react";
+import logo from "../utils/logo.png";
 const Navbar = () => {
   const [height, setHeight] = useState(0);
   setInterval(() => {
@@ -37,9 +38,7 @@ const Navbar = () => {
       }
     >
       <div className="container flex items-center justify-between">
-        <a className="font-extrabold text-4xl text-dbc" href="/">
-          Debug Club Biskra
-        </a>
+        <img className='w-10' src={logo} alt="">
         <div className="flex items-center justify-center gap-2">
           <div
             onClick={themeSwitcher}
