@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="py-40 mt-10">
       {lang == "uk" ? (
-        <div className="container grid md:grid-cols-2 gap-8">
+        <div className="container grid md:grid-cols-2 gap-12">
           <div className="flex justify-start flex-col">
             <h2 className="text-2xl font-medium">{t("hero.intro")}</h2>
             <h1 className="text-6xl font-extrabold text-[#ff2c62] mb-4">
@@ -16,7 +16,7 @@ const Hero = () => {
             </h1>
             <p className="text-xl">{t("hero.desc")}</p>
             <div className="grid md:grid-cols-2 gap-4 mt-auto">
-              <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc">
+              <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc hover:bg-dbc duration-300 hover:text-white">
                 {t("hero.buttons.btn1")}
               </button>
               <button className="p-4 hover:bg-opacity-90 duration-300 text-xl font-medium rounded-md bg-dbc text-white">
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
         </div>
       ) : (
-        <div className="container grid md:grid-cols-2 gap-8">
+        <div className="container grid md:grid-cols-2 gap-12">
           <div className="hidden md:block">
             <img src={heroImg} alt="" />
           </div>
@@ -43,7 +43,7 @@ const Hero = () => {
               <button className="p-4 text-xl font-medium bg-opacity-90 duration-300 rounded-md bg-dbc text-white">
                 {t("hero.buttons.btn2")}
               </button>
-              <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc">
+              <button className="p-4 text-xl font-medium rounded-md border border-dbc text-dbc hover:bg-dbc duration-300 hover:text-white">
                 {t("hero.buttons.btn1")}
               </button>
             </div>
