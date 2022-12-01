@@ -6,6 +6,10 @@ import { LanguageContext } from "../App";
 import { useContext } from "react";
 import { useState } from "react";
 const Navbar = () => {
+  const [height, setHeight] = useState(0);
+  setInterval(() => {
+    setHeight(Math.round(window.scrollY));
+  }, 1);
   const { lang, setLang } = useContext(LanguageContext);
   const { i18n } = useTranslation();
   const [theme, setTheme] = useState("light");
@@ -25,7 +29,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-white dark:bg-neutral-900 z-10">
+    <div
+      className={
+        height > 0
+          ? "shadow-md py-4 fixed top-0 w-full bg-white dark:bg-neutral-900 z-10 duration-300"
+          : "py-4 fixed top-0 w-full bg-white dark:bg-neutral-900 z-10 duration-300"
+      }
+    >
       <div className="container flex items-center justify-between">
         <a className="font-extrabold text-4xl text-dbc" href="/">
           Debug Club Biskra
