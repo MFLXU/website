@@ -19,19 +19,19 @@
     "title": "Our Specialities",
     "sp1": {
       "title": "Web Development",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites."
     },
     "sp2": {
       "title": "Mobile Development",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices, such as smartphones and other hand-held devices."
     },
     "sp3": {
       "title": "AI & Robotics",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "Artificial intelligence (AI) is intelligence—perceiving, synthesizing, and infering information—demonstrated by machines, as opposed to intelligence displayed by animals and humans. Example tasks in which this is done include speech recognition, computer vision, translation between (natural) languages, as well as other mappings of inputs."
     },
     "sp4": {
       "title": "Graphics Design",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "Graphic design is a profession, academic discipline and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Graphic design is an interdisciplinary branch of design and of the fine arts."
     }
 
   },

@@ -20,22 +20,20 @@
     "title": "تخصصاتنا",
     "sp1": {
       "title": "تطوير المواقع الإلكترونية",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "يشير تطوير الويب إلى إنشاء مواقع الويب وبنائها وصيانتها. يتضمن جوانب مثل تصميم الويب والنشر على الويب وبرمجة الويب وإدارة قواعد البيانات. إنه إنشاء تطبيق يعمل عبر الإنترنت ، أي مواقع الويب."
     },
     "sp2": {
       "title": "تطوير تطبيقات الجوال",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "تطوير تطبيقات الهاتف المحمول هو مجموعة العمليات والإجراءات المتضمنة في كتابة البرامج لأجهزة الحوسبة اللاسلكية الصغيرة ، مثل الهواتف الذكية والأجهزة المحمولة الأخرى."
     },
     "sp3": {
       "title": "الذكاء الاصطناعي والروبوتات",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
+      "desc" : "الذكاء الاصطناعي (AI) هو ذكاء - إدراك المعلومات وتوليفها واستنتاجها - تظهره الآلات ، على عكس الذكاء الذي تظهره الحيوانات والبشر. تتضمن أمثلة المهام التي يتم فيها ذلك التعرف على الكلام ، ورؤية الكمبيوتر ، والترجمة بين اللغات (الطبيعية) ، بالإضافة إلى تعيينات أخرى للمدخلات."
     },
     "sp4": {
       "title": "تصميم الرسومات",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                Accusamus accusantium, ad assumenda corporis debitis dolorum et\n                explicabo facere illum inventore ipsum libero, minus nam\n                perferendis quaerat quod repellendus, repudiandae veritatis."
-    }
-  },
-  "cta": {
+      "desc" : "التصميم الجرافيكي هو مهنة وانضباط أكاديمي وفن تطبيقي يتمثل نشاطه في عرض الاتصالات المرئية التي تهدف إلى نقل رسائل محددة إلى مجموعات اجتماعية ذات أهداف محددة. التصميم الجرافيكي هو فرع متعدد التخصصات من التصميم والفنون الجميلة."
+    },
     "cta": "هل تريد أن تصبح جزءًا من نادينا؟",
     "btn": "املأ استمارة التسجيل"
   }

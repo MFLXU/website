@@ -46,6 +46,9 @@ const Navbar = () => {
           <span className="hidden md:block">Debug Club Biskra</span>
         </a>
         <div className="flex items-center justify-center gap-2">
+          <p className="outline-0 flex items-center justify-center text-sm py-2 px-4 cursor-pointer border rounded-md dark:border-neutral-800 hover:border-dbc dark:hover:border-dbc">
+            Take This Quiz
+          </p>
           <div
             onClick={themeSwitcher}
             className="hover:-translate-y-0.5 p-1 rounded-md border bg-dbc  border-dbg duration-300 cursor-pointer dark:border-neutral-800 hover:border-dbc dark:hover:border-dbc"
